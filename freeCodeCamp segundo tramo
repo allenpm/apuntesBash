@@ -6,13 +6,20 @@
 ◇\d                                                                   | Si estamos conectados a una base de datos muestra las tablas
 ◇\d nombre_tabla                                                      |  Muestra como es la tabla (tipo, nombre, numero de columnas)
 ◇CREATE TABLE table_name();                                           | Creamos una tabla
-◇ALTER TABLE table_name ADD COLUMN column_name DATATYPE;              | Agrega una columna. Debemos reemplazar DATATYPE por el tipo de dato
-ALTER TABLE second_table ADD COLUMN first_column INT;                  | Ejemplo del comando de arriba. Reemplazo el Datatype por INT      
+◇ALTER TABLE table_name ADD COLUMN column_name DATATYPE;              | Agrega una columna. Debemos reemplazar DATATYPE por el tipo de dato. Por ej: ALTER TABLE second_table ADD COLUMN first_column INT; 
 ◇ALTER TABLE table_name DROP COLUMN column_name;                      | Borra una columna de la tabla elegida
 ◇ALTER TABLE table_name RENAME COLUMN column_name TO new_name;        | Renombramos una tabla
-◇INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);   | Es para ingresar valores en las columnas especificadas
+◇INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);   | Es para ingresar valores en las columnas especificadas.Tambien podemos agregar varias de una, Ej: INSERT INTO characters(name, homeland, favorite_color) VALUES('Mario', 'Mushroom Kingdom', 'Red'),('Luigi', 'Mushroom Kingdom', 'Green'),('Peach', 'Mushroom Kingdom', 'Pink');
 ◇SELECT columns FROM table_name;                                      | Muestra los datos en una tabla. Reemplazamos "columns" por las columnas, si ponemos * trae todas.
 ◇DROP DATABASE dbname;                                                | Elimina la base de datos                                                
+◇DROP TABLE nombre;                                                   | Elimina una tabla.
+◇ALTER DATABASE olddbname RENAME TO newdbname;                        | Permite renombrar una base de datos
+◇ALTER TABLE nombre_actual RENAME TO nuevo_nombre;                    | Renombra una tabla.
+◇UPDATE table_name SET column_name=new_value WHERE condition;         | Cambia valores segun una condición.
+◇SELECT columns FROM table_name ORDER BY column_name;                 | Muestra las columnas en un orden segun una columna elegida. 
+◇ALTER TABLE table_name ADD PRIMARY KEY(column_name);                 | Identifica la primary key
+◇
+◇
 ◇
 ◇
 ◇
