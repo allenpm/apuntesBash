@@ -12,7 +12,7 @@ ALTER TABLE second_table ADD COLUMN first_column INT;                  | Ejemplo
 ◇ALTER TABLE table_name RENAME COLUMN column_name TO new_name;        | Renombramos una tabla
 ◇INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);   | Es para ingresar valores en las columnas especificadas
 ◇SELECT columns FROM table_name;                                      | Muestra los datos en una tabla. Reemplazamos "columns" por las columnas, si ponemos * trae todas.
-◇
+◇DROP DATABASE dbname;                                                | Elimina la base de datos                                                
 ◇
 ◇
 ◇
