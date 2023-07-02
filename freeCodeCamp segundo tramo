@@ -1,11 +1,20 @@
--psql --username=freecodecamp --dbname=postgres             | Para hacer login en la terminal PostgreSQL
--\l                                                         | Lista las databases
--CREATE DATABASE nombre_base                                | Crea la base de datos
--\c nombre_base                                             | Conecta a una base de datos
--\d nombre_base                                             | Muestra las bases de datos
--\d                                                         | Si estamos conectados a una base de datos muestra las tablas
--\d nombre_tabla                                            | Muestra como es la tabla (tipo, nombre, numero de columnas)
--CREATE TABLE table_name();                                 | Creamos una tabla
--ALTER TABLE table_name ADD COLUMN column_name DATATYPE;    | Agrega una columna. Debemos reemplazar DATATYPE por el tipo de dato
-ALTER TABLE second_table ADD COLUMN first_column INT;       | Ejemplo del comando de arriba. Reemplazo el Datatype por INT      
--ALTER TABLE table_name DROP COLUMN column_name;            | Borra una columna de la tabla elegida
+◇psql --username=freecodecamp --dbname=postgres                       | Para hacer login en la terminal PostgreSQL
+◇\l                                                                   |  Lista las databases
+◇CREATE DATABASE nombre_base                                          | Crea la base de datos
+◇\c nombre_base                                                       | Conecta a una base de datos
+◇\d nombre_base                                                       | Muestra las bases de datos
+◇\d                                                                   | Si estamos conectados a una base de datos muestra las tablas
+◇\d nombre_tabla                                                      |  Muestra como es la tabla (tipo, nombre, numero de columnas)
+◇CREATE TABLE table_name();                                           | Creamos una tabla
+◇ALTER TABLE table_name ADD COLUMN column_name DATATYPE;              | Agrega una columna. Debemos reemplazar DATATYPE por el tipo de dato
+ALTER TABLE second_table ADD COLUMN first_column INT;                  | Ejemplo del comando de arriba. Reemplazo el Datatype por INT      
+◇ALTER TABLE table_name DROP COLUMN column_name;                      | Borra una columna de la tabla elegida
+◇ALTER TABLE table_name RENAME COLUMN column_name TO new_name;        | Renombramos una tabla
+◇INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);   | Es para ingresar valores en las columnas especificadas
+◇SELECT columns FROM table_name;                                      | Muestra los datos en una tabla. Reemplazamos "columns" por las columnas, si ponemos * trae todas.
+◇
+◇
+◇
+◇
+◇
+◇
