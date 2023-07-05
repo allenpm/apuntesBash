@@ -18,7 +18,7 @@
 ◇UPDATE table_name SET column_name=new_value WHERE condition;         | Cambia valores segun una condición.
 ◇SELECT columns FROM table_name ORDER BY column_name;                 | Muestra las columnas en un orden segun una columna elegida. 
 ◇ALTER TABLE table_name ADD PRIMARY KEY(column_name);                 | Identifica la primary key
-◇
+◇ALTER TABLE table_name DROP CONSTRAINT constraint_name;              | Elimina una restricción de la tabla
 ◇
 ◇
 ◇
