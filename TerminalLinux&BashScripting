@@ -1,0 +1,3 @@
+touch <name> || Crea un archivo
+#            || Hace comentarios en bash (archivos)
+cat <dir>    || Listas de direcciones
