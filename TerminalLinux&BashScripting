@@ -1,3 +1,14 @@
-touch <name> || Crea un archivo
-#            || Hace comentarios en bash (archivos)
-cat <dir>    || Listas de direcciones
+touch <name>                 || Crea un archivo
+#                            || Hace comentarios en bash (archivos)
+cat <dir>                    || Listas de direcciones
+pwd                          || Indica donde nos ubicamos
+cd <direccion>               || Nos "lleva" al directorio/carpeta que queremos ir
+mkdir <nombrearchivo>        || Crea archivos
+#! /bin/bash                 || Le dice a la pc que ejecuta bash podemos poner el "#!" seguido de cualquier shells deseados.
+./<archivo>                  || Nos permite ejecutar programas
+ls                           || Lista el archvio
+ls -all                      || Nos permite ver info del archivo, quien y cuando se creo. Tambien permisos
+chmod +x helloword.sh        || Da permisos de que se ejecute. Si creamos un ejecutable debe hacerse esto primero.
+clear                        || Limpia la terminal
+ctrl(tecla)+d                || Acaba la ejecucion de un programa
+cat <archivo>                || Permite editar un archivo
