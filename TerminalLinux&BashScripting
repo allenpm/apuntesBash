@@ -12,3 +12,4 @@ chmod +x helloword.sh        || Da permisos de que se ejecute. Si creamos un eje
 clear                        || Limpia la terminal
 ctrl(tecla)+d                || Acaba la ejecucion de un programa
 cat <archivo>                || Permite editar un archivo
+' '                          || Permite hacer comentarios extensos
